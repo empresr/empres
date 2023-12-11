@@ -1,0 +1,87 @@
+*{box-sizing: border-box;}
+body{margin-top: 30px;}
+#contenedor{
+    margin: 0 auto;
+    width: 600px;
+    border: 1px solid black;
+    box-sizing: content-box;
+    height: 100vh;
+}
+nav, nav li{display: inline-block;}
+nav{width: 80%;text-align: right;}
+header img{width: 100px; margin-left: 15px; vertical-align: baseline;}
+header{border-bottom: 10px solid #372772; height: 70px;}
+nav li{
+    font-size: 16px;
+    font-family: Anton, sans-serif;
+    padding: 10px 20px;
+}
+nav li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.izquierda{
+    float: left;
+    width: 40%;
+}
+.derecha{
+    float: right;
+    text-align: center;
+    width: 60%;
+
+}
+h2{
+    font-family: Anton;
+    font-size: 16px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+.ordenador{
+background-color: #747c92;
+height: 200px;
+}
+.nosotros{
+    width: 40%;
+    height: 200px;
+}
+.art2{
+    width: 65%;
+    background-color: #3a2449;
+    font-size: 15px;
+    color: white;
+    height:200px;
+    text-align: center;
+}
+.comercial{
+    background-color: #47704c;
+    width: 35%;
+}
+.img1{
+width: 350px;
+}
+.img2{
+    width: 196px;
+}
+ul{
+    color: white;
+    list-style: circle;
+}
+.correo{
+    background-color: #a7abd0;
+    width: 35%;
+}
+h3{
+
+    color: green;
+}
+.art3{
+    width: 65%;
+    background-color: blue;
+    font-size: 15px;
+    color: white;
+    height:200px;
+    text-align: center;
+}
